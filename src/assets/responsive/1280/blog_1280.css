@@ -1,0 +1,176 @@
+@media only screen and (max-width: 1280px) {
+  .blog,
+  .blog * {
+    box-sizing: border-box;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1280px;
+    position: relative;
+  }
+  .blog__inside {
+    background: #ffffff;
+    padding: 96px 64px 96px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1280px;
+    position: relative;
+  }
+  .blog__title {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .blog__subjecct {
+    color: var(--neutral-07, #202025);
+    text-align: left;
+    font: var(--h1-l, 800 80px/80px "Inter", sans-serif);
+    position: relative;
+  }
+  .blog__subtitle {
+    color: var(--neutral-05, #686a6c);
+    text-align: center;
+    font: var(--body1-l, 700 24px/32px "Inter", sans-serif);
+    position: relative;
+    width: 784px;
+  }
+  .blog__post_1 {
+    max-width: 1280px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .blog__picture {
+    background: #c3cad4;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .blog__image {
+    border-radius: 35px;
+    flex-shrink: 0;
+    width: 540px;
+    height: 540px;
+    position: relative;
+  }
+  .blog__content {
+    display: flex;
+    max-width:530px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+  }
+  .blog__title2 {
+    color: var(--neutral-07, #202025);
+    text-align: left;
+    font: var(--h2-l, 800 64px/64px "Inter", sans-serif);
+    position: relative;
+    align-self: stretch;
+  }
+  .blog__content__subtitle {
+    color: var(--neutral-05, #686a6c);
+    text-align: left;
+    font: var(--body2-l, 500 20px/32px "Inter", sans-serif);
+    position: relative;
+    align-self: stretch;
+  }
+  .blog__list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .blog__item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .blog__icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .blog__text {
+    color: var(--neutral-08, #010101);
+    text-align: left;
+    font: var(--body2-l, 500 20px/32px "Inter", sans-serif);
+    position: relative;
+    flex: 1;
+  }
+  .blog__icon2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .blog__text2 {
+    color: var(--neutral-08, #010101);
+    text-align: left;
+    font: var(--body2-l, 500 20px/32px "Inter", sans-serif);
+    position: relative;
+    width: 597px;
+  }
+  .blog__action {
+    border-radius: 4px;
+    border: solid var(--neutral-06, #555555);
+    border-width: 2px;
+    padding: 12px 32px 12px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .blog__button {
+    color: var(--neutral-07, #202025);
+    text-align: left;
+    font: var(--button-l, 800 12px/24px "Inter", sans-serif);
+    text-transform: uppercase;
+    position: relative;
+  }
+  .blog__learn-more {
+    color: var(--neutral-07, #202025);
+    text-align: left;
+    font: var(--button-l, 800 12px/24px "Inter", sans-serif);
+    text-transform: uppercase;
+    position: relative;
+  }
+}

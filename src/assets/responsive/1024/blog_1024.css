@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1024px) {
+  .blog,
+  .blog * {
+    box-sizing: border-box;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100vw;
+    position: relative;
+  }
+  .blog__inside {
+    background: #ffffff;
+    padding: 28.12px 18.75px 28.12px 18.75px;
+    display: flex;
+    flex-direction: column;
+    gap: 23.44px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 375px;
+    position: relative;
+  }
+  .blog__title {
+    display: flex;
+    flex-direction: column;
+    gap: 6.15px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    font: 800 24px/23.44px "Inter", sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    position: relative;
+  }
+  .blog__subjecct {
+    font-size: 40px;
+    color: var(--neutral-07, #202025);
+    text-align: left;
+    font: 800 24px/23.44px "Inter", sans-serif;
+    position: relative;
+  }
+  .blog__subtitle {
+    font: 400 14px/1.2 "Inter", sans-serif;
+    max-width: 290px;
+  }
+  .blog__content__subtitle {
+    color: var(--neutral-05, #686a6c);
+    font: 400 14px/1.2 "Inter", sans-serif;
+    position: relative;
+    width: 100%;
+  }
+  .blog__post {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .blog__picture {
+    background: #c3cad4;
+    border-radius: 14.97px;
+    display: flex;
+    flex-direction: row;
+    gap: 4.68px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .blog__image {
+    border-radius: 16.38px;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .blog__content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 100%;
+
+    position: relative;
+  }
+
+  .blog__list {
+    display: flex;
+    flex-direction: column;
+    gap: 11.26px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .blog__item {
+    display: flex;
+    flex-direction: row;
+    gap: 5.63px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .blog__icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+    transform: scale(0.8);
+  }
+  .blog__text {
+    color: var(--neutral-08, #010101);
+    text-align: left;
+    font: 500 9.39px/15.02px "Inter", sans-serif;
+    position: relative;
+    flex: 1;
+  }
+  .blog__icon2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+    transform: scale(0.8);
+  }
+  .blog__text2 {
+    color: var(--neutral-08, #010101);
+    text-align: left;
+    font: 500 9.39px/15.02px "Inter", sans-serif;
+    position: relative;
+    width: 100%;
+  }
+  .blog__action {
+    border-radius: 1.88px;
+    border: solid var(--neutral-06, #555555);
+    border-width: 0.94px;
+    padding: 5.63px 15.02px 5.63px 15.02px;
+    display: flex;
+    flex-direction: row;
+    gap: 3.75px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .blog__learn-more {
+    color: var(--neutral-07, #202025);
+    text-align: left;
+    font: 800 5.63px/11.26px "Inter", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+  }
+  .blog__icon3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .blog__icon4 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .blog__icon5 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .blog__icon6 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+}

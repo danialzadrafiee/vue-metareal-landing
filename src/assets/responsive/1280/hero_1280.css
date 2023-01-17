@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1280px) {
+  .hero,
+  .hero * {
+    box-sizing: border-box;
+  }
+  .hero {
+    flex-direction: column;
+    width: 1280px;
+  }
+  .hero__inside {
+    flex-direction: column;
+    gap: 0px;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 1280px;
+    height: 900px;
+    position: relative;
+  }
+  .hero__navigation {
+    padding: 64px 64px 8px 64px;
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__logo {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__metareal {
+    color: #27272e;
+    text-align: left;
+    font: 600 28px "Poppins", sans-serif;
+    position: relative;
+  }
+  .hero__links {
+    display: flex;
+    flex-direction: row;
+    gap: 46px;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__anchor {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__link {
+    color: #000000;
+    text-align: left;
+    font: 500 16px "Poppins", sans-serif;
+    position: relative;
+  }
+  .hero__content {
+    padding: 96px 128px 96px 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__title {
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 516px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__text {
+    text-align: left;
+    font: 700 90px/99.33% "Inter", sans-serif;
+    position: relative;
+  }
+  .hero__text-span {
+    color: #292930;
+    font: 700 90px/99.33% "Inter", sans-serif;
+  }
+  .hero__text-span2 {
+    color: var(--text-dark, #292930);
+    font: 700 90px/99.33% "Inter", sans-serif;
+  }
+  .hero__text-span3 {
+    color: #292930;
+    font: 700 90px/99.33% "Inter", sans-serif;
+  }
+  .hero__text-span4 {
+    color: var(--text-dark, #292930);
+    font: 700 90px/99.33% "Inter", sans-serif;
+  }
+  .hero__text-span5 {
+    color: #a2614d;
+    font: 700 90px/99.33% "Inter", sans-serif;
+  }
+  .hero__subtitle {
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 96px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 516px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__text2 {
+    color: var(--text-dark, #292930);
+    text-align: left;
+    font: 400 18px "Poppins", sans-serif;
+    position: relative;
+  }
+  .hero__buttons {
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 516px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__start {
+    padding: 8px 10px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 178px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__inside2 {
+    background: #684d4e;
+    border-radius: 20px;
+    padding: 29px 0px 29px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 178px;
+    height: 82px;
+    position: relative;
+  }
+  .hero__text3 {
+    color: var(--color-white, #ffffff);
+    text-align: center;
+    font: 500 16px "Poppins", sans-serif;
+    position: relative;
+  }
+  .hero__action {
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero__inside3 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .hero__icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .hero__text4 {
+    color: #3b3939;
+    text-align: left;
+    font: var(--button, 500 16px "Poppins", sans-serif);
+    position: relative;
+  }
+}
